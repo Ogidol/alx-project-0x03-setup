@@ -1,7 +1,7 @@
 import React from "react";
 import { UserProps } from "@/interfaces";
 import UserCard from "@/components/common/UserCard";
-import Header from "@/components/layout/Header";
+import Header from "@/components/layouts/Header";
 
 interface UsersPageProps {
   users: UserProps[];

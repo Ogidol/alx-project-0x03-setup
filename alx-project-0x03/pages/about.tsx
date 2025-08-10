@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "@/components/common/Button";
-import Header from "@/components/layout/Header";
+import Header from "@/components/layouts/Header";
 
 const about: React.FC = () => {
   // This component renders the About page with a header and buttons of different sizes
