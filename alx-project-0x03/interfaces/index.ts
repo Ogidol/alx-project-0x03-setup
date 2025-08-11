@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export interface CardProps {
   title: string;
   content: string;
@@ -39,4 +41,19 @@ export interface UserProps {
     city: string;
     zipcode: string;
   };
+}
+
+export interface LayoutProps {
+  children: ReactNode;
+}
+
+export interface PageRouteProps {
+  pageRoute: string;
+}
+
+export interface ButtonProps {
+  buttonLabel: string;
+  buttonSize?: string;
+  buttonBackgroundColor?: "red" | "blue" | "orange" | "green";
+  action?: () => void;
 }

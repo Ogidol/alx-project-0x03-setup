@@ -1,4 +1,5 @@
 import Button from "@/components/common/Button";
+import { ButtonProps } from "@/interfaces";
 import { useRouter } from "next/router";
 import { PageRouteProps } from "@/interfaces";
 
@@ -27,16 +28,34 @@ export default function Home() {
           action={() => routeToNextPage({ pageRoute: "/generate-text-ai" })}
           buttonLabel="Generate Text"
           buttonBackgroundColor="blue"
+          size={"small"}
+          shape={"rounded-sm"}
+          label={""}
+          onClick={function (): void {
+            throw new Error("Function not implemented.");
+          }}
         />
         <Button
           action={() => routeToNextPage({ pageRoute: "/text-to-image" })}
           buttonLabel="Text to Image"
           buttonBackgroundColor="green"
+          size={"small"}
+          shape={"rounded-sm"}
+          label={""}
+          onClick={function (): void {
+            throw new Error("Function not implemented.");
+          }}
         />
         <Button
           action={() => routeToNextPage({ pageRoute: "/counter-app" })}
           buttonLabel="Contact us"
           buttonBackgroundColor="orange"
+          size={"small"}
+          shape={"rounded-sm"}
+          label={""}
+          onClick={function (): void {
+            throw new Error("Function not implemented.");
+          }}
         />
       </div>
     </div>
