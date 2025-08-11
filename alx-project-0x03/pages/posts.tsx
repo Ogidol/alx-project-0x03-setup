@@ -1,5 +1,5 @@
 import React from "react";
-import { PostProps } from "@/interfaces";
+import { PostProps } from "@/interface";
 import PostCard from "@/components/common/PostCard";
 import Header from "@/components/layouts/Header";
 

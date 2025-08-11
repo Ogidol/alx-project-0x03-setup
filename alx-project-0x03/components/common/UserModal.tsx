@@ -1,5 +1,5 @@
 import React from "react";
-import { UserData } from "@/interfaces";
+import { UserData } from "@/interface";
 
 const UserModel: React.FC<UserData> = ({
   name,
